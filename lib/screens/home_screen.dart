@@ -388,7 +388,7 @@ String _getWeatherMain(BuildContext context, String s) {
 }
 
 String _getAGreeting(BuildContext context) {
-  var timeHour = DateTime.timestamp().hour;
+  var timeHour = DateTime.now().hour;
   if(timeHour >= 06 && timeHour < 12){
     return S.of(context).goodMorning;
   } else if (timeHour >= 12 && timeHour < 18) {
