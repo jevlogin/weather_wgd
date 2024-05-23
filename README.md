@@ -16,3 +16,7 @@ State Management: Employs Bloc for effective state management, ensuring a respon
 Flutter SDK
 Dart SDK
 Android/iOS emulator or a physical device
+
+### Used API
+
+[* https://openweathermap.org/weather-conditions](https://openweathermap.org/weather-conditions)
