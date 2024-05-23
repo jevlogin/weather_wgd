@@ -1,0 +1,23 @@
+{
+  "goodMorning": "Good Morning",
+  "sunrise": "Sunrise",
+  "sunset": "Sunset",
+  "mist": "Mist",
+  "smoke": "Smoke",
+  "haze": "Haze",
+  "dust": "Dust",
+  "fog": "Fog",
+  "sand": "Sand",
+  "ash": "Ash",
+  "squall": "Squall",
+  "tornado": "Tornado",
+  "clear": "Clear",
+  "clouds": "Clouds",
+  "snow": "Snow",
+  "rain": "Rain",
+  "drizzle": "Drizzle",
+  "thunderstorm": "Thunderstorm",
+  "goodAfternoon": "Good afternoon",
+  "goodEvening": "Good evening",
+  "goodNight": "Good night"
+}

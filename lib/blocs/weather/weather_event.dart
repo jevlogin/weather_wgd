@@ -1,3 +1,13 @@
-abstract class WeatherEvent {}
+part of 'weather_bloc.dart';
 
-class InitEvent extends WeatherEvent {}
+abstract class WeatherEvent extends Equatable {}
+
+class FetchWeatherEvent extends WeatherEvent {
+  FetchWeatherEvent(this.position);
+
+  final Position position;
+
+  @override
+  List<Object?> get props => [position];
+}
+

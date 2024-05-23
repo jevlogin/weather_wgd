@@ -1,0 +1,23 @@
+{
+  "goodMorning": "Доброе Утро",
+  "sunrise": "Восход",
+  "sunset": "Закат",
+  "mist": "Туман",
+  "smoke": "Дым",
+  "haze": "Легкий туман",
+  "dust": "Пыль",
+  "fog": "Туман",
+  "sand": "Песок",
+  "ash": "Пепел",
+  "squall": "Шквал",
+  "tornado": "Торнадо",
+  "clear": "Чисто",
+  "clouds": "Облака",
+  "snow": "Снег",
+  "rain": "Дождь",
+  "drizzle": "Моросит",
+  "thunderstorm": "Гроза",
+  "goodAfternoon": "Добрый день",
+  "goodEvening": "Добрый вечер",
+  "goodNight": "Доброй ночи"
+}
