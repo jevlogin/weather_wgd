@@ -1,16 +1,18 @@
-# weather_wgd
+# Weather App
 
-The weather app
+The Weather App is a beautifully designed Flutter application that provides real-time weather information based on your current location. It supports multiple languages and features robust logging and error-handling capabilities.
+
+## Features
+
+Real-time Weather Updates: Displays current weather information based on the user's location.
+Localization Support: Multiple language support to cater to a global audience.
+Detailed Logging and Error Handling: Utilizes Talker for comprehensive logging and error management.
+State Management: Employs Bloc for effective state management, ensuring a responsive and robust UI.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter SDK
+Dart SDK
+Android/iOS emulator or a physical device

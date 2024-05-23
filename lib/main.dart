@@ -77,6 +77,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+
 Future<Position> _determinePosition() async {
   bool serviceEnabled;
   LocationPermission permission;
@@ -85,26 +86,25 @@ Future<Position> _determinePosition() async {
 
   serviceEnabled = await Geolocator.isLocationServiceEnabled();
   if (!serviceEnabled) {
-    GetIt.I<Talker>().error('Location services are disabled.');
-    return Future.error('Location services are disabled.');
+    var serviceDisabled = 'Location services are disabled.';
+    GetIt.I<Talker>().error(serviceDisabled);
+    return Future.error(serviceDisabled);
   }
 
   permission = await Geolocator.checkPermission();
   if (permission == LocationPermission.denied) {
     permission = await Geolocator.requestPermission();
     if (permission == LocationPermission.denied) {
-      GetIt.I<Talker>().error('Location permissions are denied');
-
-      return Future.error('Location permissions are denied');
+      var denied = 'Location permissions are denied';
+      GetIt.I<Talker>().error(denied);
+      return Future.error(denied);
     }
   }
 
   if (permission == LocationPermission.deniedForever) {
-    GetIt.I<Talker>().error(
-        'Location permissions are permanently denied, we cannot request permissions.');
-
-    return Future.error(
-        'Location permissions are permanently denied, we cannot request permissions.');
+    var deniedForever = 'Location permissions are permanently denied, we cannot request permissions.';
+    GetIt.I<Talker>().error(deniedForever);
+    return Future.error(deniedForever);
   }
 
   var position = await Geolocator.getCurrentPosition();
